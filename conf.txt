@@ -1,0 +1,10 @@
+sendpath1=/data/game/basketball_0/newserver/data/
+sendpath2=/data/game/basketball_1/newserver/data/
+sendpath3=/data/game/basketball_2/newserver/data/
+ip=192.168.1.219
+f_port=21
+s_port=22
+user=root
+password=123456
+cmd1=systemctl stop supervisord
+cmd2=systemctl start supervisord
