@@ -27,3 +27,5 @@ cmd2=systemctl restart supervisord                 #第二个执行远程服务器的命令  
    
 4:vim /etc/vsftpd/vsftpd.conf
    将anonymous_enable=YES 改为anonymous_enable=NO
+   
+5:systemctl start vsftpd #启动ftp服务
